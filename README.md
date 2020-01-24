@@ -6,6 +6,7 @@ react-native init m_app
 cp -r ~/folder/m_app/. ~/vlab/mp_app
 
 install dependency
+```
 "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",
     "@react-native-community/masked-view": "^0.1.6",
@@ -47,4 +48,5 @@ install dependency
       "./assets/fonts/"
     ]
   }
+  ```
 

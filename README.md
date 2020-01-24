@@ -53,6 +53,7 @@
 
 ## copy folder src
 
+```
  src
     ├── app
     │   ├── components          # Consist of components
@@ -77,3 +78,5 @@
     │   ├── styleGlobal.js  
     │   ├── styleGlobal.js 
     ├── ... 
+   
+   ```

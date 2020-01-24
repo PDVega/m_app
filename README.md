@@ -1,12 +1,12 @@
 # m_app
 
-~/folder/m_app
+## ~/folder/m_app
 
 ```react-native init m_app```
 
 ```cp -r ~/folder/m_app/. ~/vlab/mp_app```
 
-install dependency
+## install dependency
 ```
 "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",
@@ -51,3 +51,29 @@ install dependency
   }
   ```
 
+## copy folder src
+
+ src
+    ├── app
+    │   ├── components          # Consist of components
+    ├── assets                  # Assets of images, fonts 
+    │   ├── fonts
+    │   ├── images
+    │   └── index.js
+    ├── configs
+    │   ├── index.js
+    │   ├── styleGlobal.js       # Style that can be used in global component
+    ├── constants
+    │   ├── index.js               
+    │   ├── styleGlobal.js   
+    ├── controllers              
+    │   ├── index.js              
+    │   ├── styleGlobal.js  
+    ├── navigations             
+    │   ├── index.js                
+    │   ├── styleGlobal.js  
+    ├── redux                      
+    │   ├── index.js               
+    │   ├── styleGlobal.js  
+    │   ├── styleGlobal.js 
+    ├── ... 
